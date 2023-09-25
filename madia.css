@@ -1,0 +1,216 @@
+
+@media only screen and (max-width: 1347px) {
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .f4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 1122px) {
+    .div3 {
+        max-width: 300px;
+    }
+
+    .images {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .div4 img {
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width: 894px) {
+    .d4,
+    .d5{
+        display: none;
+    }
+
+    .d3{
+        padding-left: 400px;
+    }
+
+    .d2{
+        padding-bottom: 400px;
+        padding-left: 200px;
+    }
+}
+
+@media only screen and (max-width: 880px) {
+    .div2 h1 {
+        font-size: 35px;
+    }
+
+    .navbar button {
+        display: none;
+    }
+
+    .f2 h1 {
+        font-size: 33px;
+    }
+
+    .f2 h1 span {
+        font-size: 33px;
+    }
+
+
+    .d4 img{
+        padding-left: 100px;
+    }
+
+
+    .timetable{
+        width: 750px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    .f3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .for-img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 763px) {
+    .images {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .centerPage {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .about_items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div3 p {
+        text-align: center;
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
+    }
+
+    .timetable {
+        max-width: 600px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 647px) {
+    .f2 {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .timetable {
+        max-width: 550px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .description h1 {
+        font-size: 30px;
+    }
+
+    .description h1 span {
+        font-size: 30px;
+    }
+
+    .timetable {
+        max-width: 450px;
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .description {
+        max-width: 300px;
+    }
+
+    .headingEnd {
+        max-width: 320px;
+    }
+
+    .btn2 {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    section {
+        padding: 10px;
+    }
+
+    .timetable {
+        max-width: 300px;
+    }
+
+    .t1 p,
+    .t2 p,
+    .t3 p,
+    .t4 p,
+    .t5 p {
+        font-size: 13px;
+    }
+
+    .t2 p {
+        padding: 10px;
+    }
+
+    .e5 {
+        display: flex;
+        justify-content: center;
+        gap: 1.3rem;
+        max-width: 300px;
+    }
+
+    .about_items {
+        margin-top: 30px;
+    }
+    .d1 img,
+    .d2 img,
+    .d3 img,
+    .d4 img,
+    .d5 img,
+    .d6 img{
+        width: 100px;
+        position: absolute;
+    }
+
+
+    .description p{
+        z-index: 3;
+    }
+
+}

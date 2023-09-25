@@ -1,0 +1,51 @@
+.navbar ul li{
+    transition: all .2s ease;
+}
+
+.navbar ul li:hover{
+    color: #377DFF;
+    cursor: pointer;
+}
+
+.navbar button,
+.h3{
+    transition: all .3s ease;
+}
+
+.navbar button:hover,
+.h3:hover{
+    background-color: #3667c0;
+    cursor: pointer;
+}
+
+.e5 > div:hover {
+    background: #377DFF;
+}
+
+.f6:hover{
+    cursor: pointer;
+}
+
+
+.e5 div:hover{
+    cursor: pointer;
+}
+
+.images div{
+    transition: all .3s ease;
+}
+
+.images div:hover{
+    border: none;
+    background-color: #E2EBFF;
+}
+
+.e4 ul li{
+    transition: all .3s ease;
+}
+
+.e4 ul li:hover{
+    color: #377DFF;
+    cursor: pointer;
+}
+
